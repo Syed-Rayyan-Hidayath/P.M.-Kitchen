@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P.M. Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="pics/Logo.png" alt="PM Kitchen Logo">
+  </div>
+    <h1>P.M. Kitchen</h1>
+    <p id="tagline"><span>E</span>xperience the <span>Best </span>flavors of <span>Hyderabad</span> from A.M.To <span>P.M.!</span></p>
+    <nav>
+      <a href="#menu" >MENU</a>
+      <a href="#Order" >Order</a>
+      <a href="#contact-us" >Contact Us</a>
+      <a href="#about-us" >About Us</a>
+      <a href="#certificate" >Certificate</a>
+    </nav>
+  </header>
+
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Welcome to PM Kitchen! We are dedicated to serving delicious and flavorful dishes made from fresh ingredients.
+      Our menu offers a variety of cuisines to satisfy every palate. Join us for a dining experience to remember!</p>
+  </section>
+
+  <!-- Latest Recipes Section -->
+  <section id="menu">
+    <h2>MENU</h2>
+    <div class="recipe">
+      <img src="pics/hyderabadi biryani.jpg" alt="Recipe Image" style="size: 1cm;">
+      <h3>Hyderabadi Biryani</h3>
+      <p>The crown jewel of Hyderabadi cuisine, this biryani is made with fragrant basmati rice, marinated meat, and a special blend of spices. Cooked in "dum" style, it results in a flavorful, aromatic dish that’s loved worldwide and embodies Hyderabad’s rich culinary heritage.</p>
+      <a href="recipe html/recipe-hyderabadi-biryani.html" target="_blank">View Recipe</a>
+
+    </div>
+
+    <button id="backToTop" style="display: none; position: fixed; bottom: 20px; right: 20px; padding: 10px 15px; background-color: #1cb321; color: white; border: none; border-radius: 5px;">Top</button>
+
+  <section id="contact-us">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" id="email" required>
+        <small class="error-message" id="emailError"></small>
+      </div>
+      <div class="form-group">
+        <label>Phone:</label>
+        <input type="text" id="phone" required pattern="\\d{10}">
+        <small class="error-message" id="phoneError"></small>
+      </div>
+      <button type="submit">Submit</button>
+      <p id="successMessage" style="display: none; color: green; margin-top: 10px;">Thank you for contacting us!</p>
+    </form>
+  </section>
+  
+
+  <section id="contact-us">
+    <h2>Contact Us</h2>
+    <p>Email: contact@p.m.kitchen.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 123 Flavor Street, Food City</p>
+    <br>
+    <br>
+
+</section>
+
+
+  <!-- About Section -->
+
+
+  <footer>
+    <p>&copy; 2024 P.M. Kitchen. All rights reserved.</p>
+  </footer>
+  <script src="style.js"></script>
+
+</body>
+</html>
+
+
